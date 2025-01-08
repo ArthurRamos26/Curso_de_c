@@ -11,7 +11,7 @@ int main(){
     printf("Digite  o valor do premio : ");
     scanf("%f",&premio);
   
-    val1 =premio * (bet1  / (bet1 + bet2 + bet3));
+    val1 =premio * (bet1  / (bet1 + bet2 + bet3)); //calculo da porcentagem sobre o valor da premiação feito para cada aposta 
     
     val2 =premio * (bet2  / (bet1 + bet2 + bet3));
     
