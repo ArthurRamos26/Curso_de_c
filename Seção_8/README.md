@@ -1,2 +1,2 @@
 # Funções em C
-## Exercícios com funões em c 
+## Exercícios com funções em c 
