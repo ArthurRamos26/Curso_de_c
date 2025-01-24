@@ -1,2 +1,2 @@
 # Ponteiros 
-#3 Exercícios sobre ponteiros em c 
+#  Exercícios sobre ponteiros em c 
