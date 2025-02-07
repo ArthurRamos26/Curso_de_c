@@ -17,8 +17,8 @@ int main(){
    fgets(pes.endereco,100,stdin);
 
    printf("Digite a idade da pessoa : ");
-   scanf("%d",&pes.idade);
-   getchar(); //tem que ter esse get char pois caso contrario vai printar as duas linhas em caso de loop 
+   scanf(" %d",&pes.idade);
+   getchar(); //tem que ter esse get char pois caso contrario vai printar as duas linhas em caso de loop outro meio de resolver e usando o fflush(stdin)
 
    printf("DADOS : \n");
    printf("O nome dele e : %s",pes.nome );

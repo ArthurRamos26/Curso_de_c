@@ -22,6 +22,7 @@ void soma_vetor(vet vet1 , vet vet2){
     printf("\nA soma dos valores de x sao :\n %.2f ",somax);
     printf("\nA soma dos valores de y sao :\n %.2f ",somay);
     printf("\nA soma dos valores de z sao :\n %.2f ",somaz);
+    return 0 ;
 
 }
 int main (){

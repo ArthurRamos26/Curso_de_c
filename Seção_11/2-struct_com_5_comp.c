@@ -15,7 +15,7 @@ int main (){//parte do codigo para receber os elementos que serão armazenadosn 
 
     for (int i = 0 ; i < 5 ; i++){
         printf("\nDigite o nome do aluno %d : ",i+1);
-        fgets(al[i].nome,10,stdin);
+        fgets(al[i].nome,100,stdin);
         fflush(stdin); //este comando serve para limpar o buffer pois se nao armazena o enter como /n e pula a linha 
         
         printf("Digite o numero de matricula : ");
